@@ -5,8 +5,8 @@ Tervo bir “video kurs platformu” değildir.
 Tervo, teknisyenlerin hızlı ve doğru öğrenmesi için tasarlanmış **AI-native bir öğrenme motorudur**.
 
 Default öğrenme katmanı:
-- **AI Notes (yapılandırılmış notlar)**
-- **AI Voice (usta gibi sesli anlatım)**
+- **AI Generated Video**
+- **AI Notes**
 - **Task-based validation (görevlerle doğrulama)**
 
 Video ve simülasyon:
@@ -16,7 +16,7 @@ Video ve simülasyon:
 ---
 
 ## 2) Learning Components (4 parça)
-### A) AI Notes + AI Voice (Default)
+### A) AI Generated Videos (Default)
 - Kısa, net, sahaya dönük
 - “Ne?”, “Neden?”, “Nasıl?”, “En sık hata?” şeklinde yapılandırılmış
 - Belli bir sıra ile ilerliyor ve temel öğrenme fikri, bu katman olmadan görevlere geçilmez
@@ -36,12 +36,11 @@ Video ve simülasyon:
 ## 3) Task Flow (Örnek Akış)
 Bir modül tipik olarak şu sırayla ilerler:
 
-1. **AI Notes + AI Voice**
+1. **AI Videos**
 2. **Mini check (1–2 soru / kısa görev)**
 3. **Video Task (gerekliyse)**
 4. **Simulation Task (gerekliyse)**
 5. **Completion + summary**
-6. **Next best step önerisi**
 
 Amaç:
 - “bitirdim” hissi
